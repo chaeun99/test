@@ -11,7 +11,7 @@ import java.util.Map;
 @CrossOrigin(origins = "*")
 public class TestController {
 
-  @GetMapping("/api/test")
+  @GetMapping("/open-api/test")
   public Map<String, Object> test() {
     Map<String, Object> response = new HashMap<>();
     response.put("message", "스프링 부트 서버 연결 성공!");
