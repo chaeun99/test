@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 // 프론트엔드 배포 주소가 정해지기 전까지는 모든 접속을 허용()합니다.
-@CrossOrigin(origins = "")
+@CrossOrigin(origins = "*")
 public class TestController {
 
   @GetMapping("/api/test")
